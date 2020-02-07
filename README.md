@@ -10,7 +10,7 @@ In this project we investigate neural network architectures and optimizers for t
 
 
 ## For more details please read our final paper 
-- 
+- https://github.com/Sinashahsavari/VQA/blob/master/Final_Paper__VQA_.pdf
 
 ## Requirements and Usage
 
