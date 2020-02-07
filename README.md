@@ -4,6 +4,11 @@
 
 This is project SAMS_VQA developed by team SAMS composed of Sina Shahsavari, Arda Bati, Marjan Emadi and So Sasaki. The repository mainly consists of two implementations of Visual Question Answering (VQA). The experiment1 is an implementation for Bottom-Up and Top-Down Attention for VQA, which our final paper is based on. The experiment2 is a completely different implementation for a vanilla VQA. The details are on the README file in each experiment directory.  
 
+## Abstract 
+
+In this project we investigate neural network architectures and optimizers for the Bottom-Up and Top-Down Attention network for Visual Question Answering, which enables attention to be calculated at the level of objects and other salient image regions. As a result of the experiments on the VQA v2.0 dataset, our implementation achieved 63.61% validation accuracy, whereas the original im- plementation reached 63.15%. We pointed out that GRU unit in the question embedding outperforms LSTM by 0.36%. In addition, we quantitatively ana- lyzed the impact of SGD and Adamax optimizers and their hyper-parameters. Our failure-example analysis suggests that the restricted vocabulary for answering is a limitation of these VQA methods.
+
+
 ## Requirements and Usage
 
 ### Experiment1
