@@ -1,0 +1,20 @@
+save_dir: 'scratch/vqa_sgd'
+data:
+    preprocess: True   # True/False - whether to preprocess vqa data files
+    batch_size: 32
+    num_workers: 16
+model:
+    params:
+        word_emb_size: 300
+        emb_size: 1024
+        image_channel_type: 'I'     # I/norm I
+    reload: 'checkpoint.pth.tar'
+optim:
+    params: 
+        momentum: 0.9
+        lr: 0.01      # learning rate
+        # alpha: 0.99     # alpha for adagrad/rmsprop/momentum/adam
+        # beta: 0.995     # beta used for adam
+        # eps: 0.00001       # epsilon that goes into denominator in rmsprop
+        weight_decay: 0.0005
+    n_epochs: 100
