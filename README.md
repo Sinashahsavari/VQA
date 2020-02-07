@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is project SAMS_VQA developed by team SAMS composed of Sina Shahsavari, Arda Bati, Marjan Emadi and So Sasaki. The repository mainly consists of two implementations of Visual Question Answering (VQA). The experiment1 is an implementation for Bottom-Up and Top-Down Attention for VQA, which our final report is based on. The experiment2 is a completely different implementation for a vanilla VQA. The details are on the README file in each experiment directory.  
+This is project SAMS_VQA developed by team SAMS composed of Sina Shahsavari, Arda Bati, Marjan Emadi and So Sasaki. The repository mainly consists of two implementations of Visual Question Answering (VQA). The experiment1 is an implementation for Bottom-Up and Top-Down Attention for VQA, which our final paper is based on. The experiment2 is a completely different implementation for a vanilla VQA. The details are on the README file in each experiment directory.  
 
 ## Requirements and Usage
 
